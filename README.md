@@ -33,4 +33,4 @@ Though if you're creating your own CV/résumé, you'd probably prefer using the 
 * However if you're using `academicons`, you _must_ use either XeLaTeX or LuaLaTeX. If the doc then compiles but the icons don't show up in the output PDF, try compiling with LuaLaTeX instead.
 * The samples here use the [Lato](http://www.latofonts.com/lato-free-fonts/) font.
 
-A number of things are missing in this CV including details like my internship, achievements and a lot more. Hope you help me to fix it.
+All the thnigs have been properly added and new data is now loaded to the CV. Thank you for the opportunity.
