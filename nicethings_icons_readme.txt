@@ -13,6 +13,8 @@ However, the icons may not be resold, sublicensed, rented, transferred or otherw
 
 Please link to the article in which this freebie was released if you would like to spread the word: http://www.smashingmagazine.com/2013/11/01/freebie-nice-things-icon-set/
 
+This is a fun icon I have used over time
+
 Smashing Magazine Team,
 www.smashingmagazine.com
 
