@@ -23,7 +23,8 @@
 %% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
 % \documentclass[10pt,a4paper,normalphoto]{altacv}
 
-\documentclass[10pt,a4paper,ragged2e]{altacv}
+\documentclass[11pt,b4paper,ragged2e]{altacv}
+
 
 %% AltaCV uses the fontawesome and academicon fonts
 %% and packages.
@@ -64,12 +65,12 @@
 
 \begin{document}
 \name{Vishu Tyagi}
-\tagline{B. Tech. IT Graduate with interest in Backend and Data Science}
+\tagline{B. Tech. IT Graduate with interest in Machine Learning and Backend Development}
 %\photo{2.8cm}{Globe_High}
 \personalinfo{%
   % Not all of these are required!
   % You can add your own with \printinfo{symbol}{detail}
-  \email{vishutyagi018@gmail.com}
+  \email{vishutyagi.018@gmail.com}
   \phone{(+91) 860-728-7966}
 %   \mailaddress{Sonipat, Harayana}
   \location{Sonipat, Haryana}
@@ -96,16 +97,37 @@
 
 %%%%%%%%%%%%%%%%%%%%%Experience%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \cvsection[page1sidebar]{Experience}
-\cvevent{Software Development Intern}{Hindustan Unilever Ltd.}{June 24^{th} \textnormal{ 2019} - \textnormal{August 3}^{rd} \textnormal{ 2019}}{Bengaluru}
+\cvevent{Data Engineer}{Wizely}{Present}{Bengaluru}
+\begin{itemize}
+    \item Working on the development of the new data pipeline based on Python, Mongo DB, PostgreSQL and Big Query to properly manage the NeoBank data.
+    \item Working on development of the various reporting layers to help the Business and Analytic teams better analyze the impact of the product better.
+    \end{itemize} \medskip
+    
+
+\cvevent{Co-Op}{Info Edge India Ltd.}{December \textnormal{2020} -  \textnormal{June 2021}}{Noida}
+\begin{itemize}
+    \item Worked as a part of the Data Science Team in Info Edge which developed the new CV Parser Version 4 for the Naukri department.
+    \item Worked on EDA and ETL using methods available in Pandas and visualization techniques available in Seaborn like Scatter Plot, HeatMap, and Barplot.
+    \item Used NLP and Neural Networks for developing complex Deep Learning Models used for the NER.
+    \end{itemize} \medskip
+    
+    
+\cvevent{Software Engineer}{Criddle}{October \textnormal{2020} -  \textnormal{
+December \textnormal{2020}}}{Bengaluru}
+\begin{itemize}
+    \item Worked on the Backend Development of the social movie review Application using Django Framework with PostgreSQL.
+    \item Developed a number of APIs for various new features like Reviews and Feed Model in the App. Also redesigned the recommendation building APIs.
+    \item Worked on shifting the App from DigitalOcean to Amazon AWS using an EC2 AMI and a RDS Postgres Database.
+    \end{itemize} \medskip
+    
+\cvevent{Software Development Intern}{Hindustan Unilever Ltd.}{June \textnormal{ 2019} - \textnormal{August} \textnormal{ 2019}}{Bengaluru}
 \begin{itemize}
     \item Developed software to solve the last mile delivery issue to keep track of the number of man-hours spent by workers in their designated space to increase efficiency.
-    \item Used advanced models based on Machine Learning and Image Processing tools like Yolov3 and Centroid Tracker.
-    \item A Django backend was also added in the later stage.
+    \item Used advanced models based on Machine Learning and Image Processing tools like Yolov3 and Centroid Tracker with Django Backend.
     \item The software was deployed on a dedicated RS point and was able to automate the complete process for the analysis.
-    \item The project can be accessed in my Github Repository (\href{https://github.com/strider187/People_Count_HUL}{Link}).
-    \end{itemize}
-    \divider\newline
-\cvevent{Machine Learning Intern}{Suvidha (Startup under Cocoberry Restaurants & Distributions PVT Ltd.)}{June 5^{th} \textnormal{ 2018} - \textnormal{July 27}^{th} \textnormal{ 2018}}{New Delhi}
+    \end{itemize} \medskip
+    
+\cvevent{Machine Learning Intern}{Suvidha (Startup under Cocoberry Restaurants & Distributions PVT Ltd.)}{June \textnormal{ 2018} - \textnormal{July} \textnormal{ 2018}}{New Delhi}
 \begin{itemize}
     \item Completed work as a Machine Learning Intern by developing a Face Detection Model.
     \item The model is based upon Faceboxes: A CPU Real-time Face Detector with High Accuracy.
@@ -115,13 +137,7 @@
 
 
 %%%%%%%%%%%%%Education%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\cvsection[page1sidebar]{Education}
 
-\cvevent{B.Tech., Information Technology}{University School of Information, Communication \& Technology\newline
-GGSIPU}{August 2016 -- Ongoing}{New Delhi}
-\begin{itemize}
-\item CGPA: 7.76/10\footnotemark
-\end{itemize}
 
 
 
@@ -130,23 +146,32 @@ GGSIPU}{August 2016 -- Ongoing}{New Delhi}
 
 %%%%%%%%%%%%%%%%Projects%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
 \cvsection{Projects}
-\cvevent{Image Segmentation Using ESPNET}{USIC\&T}{October 2018}{}
+% \cvevent{Image Segmentation Using ESPNET}{USIC\&T}{October 2018}{}
+% \begin{itemize}
+% \item \small Implemented the newly developed fast and efficient convolutional neural network, ESPNet, for semantic segmentation of high-resolution images.
+% \item \small The link to the paper which inspired the project is: \href{https://arxiv.org/abs/1803.06815}{ESPNet: Efficient Spatial Pyramid of Dilated Convolutions for Semantic Segmentation}
+% \end{itemize} \vspace{-3 mm}
+% \divider\newline\vspace{-1 mm}
+% \cvevent{Transfer Learning for NLP with Tensorflow}{Coursera and Kaggle}{November 2020}{} 
+% \begin{itemize}
+%     \item Developed a NLP model for the \href{https://www.kaggle.com/c/quora-insincere-questions-classification/data}{Quora Insincere Questions Classification Problem} on Kaggle.
+%     \item Used Embeddings from Language Models, Universal Sentence Encoders and NNLM layers TensorHub to develop a model.
+%     \item Achieved a maximum accuracy of 96.17 on Training Data and 95.2 on Validation data with Universal Sentence Encoder.
+% \end{itemize}
+% \end{itemize}
+
+\cvevent{\textcolor{Blue}{Wordonary}}{}{May 2021}{} 
 \begin{itemize}
-\item \small Implemented the newly developed fast and efficient convolutional neural network, ESPNet, for semantic segmentation of high-resolution images.
-\item \small The link to the paper which inspired the project is: \href{https://arxiv.org/abs/1803.06815}{ESPNet: Efficient Spatial Pyramid of Dilated Convolutions for Semantic Segmentation}
-\end{itemize} \vspace{-3 mm}
-\divider\newline\vspace{-1 mm}
-\cvevent{Acquaintance with your Water Resources}{Smart India Hackathon}{May 2019}{}
-\begin{itemize}
-    \item \small Built a Rainfall Prediction Model using Machine Learning and Deep Learning.
-    \item \small The model used RNN and LSTM as the basis of the prediction which is closely related to the stock price prediction.
-    \item \small The project can be accessed at the following link: \href{https://github.com/strider187/Acquaintance-with-your-Water-Resources}{Repo link}.
+    \item Built the backend of a specialized Dictionary App offering a number of new features and developed a number of APIs to search, save and extract meanings. \href{http://wordonary.co.in/}{\textcolor{blue}{Try here.}}
+    \item Used a custom MySQL database in place of the default sqlite database used in Django.
+    \item Deployed the App's backend on AWS using an EC2 instance and a MySQL RDS database.
+    \item Developed a scraper in order to search for words which were not currently present in the database and add them.
 \end{itemize}
 
 
 
 
-\medskip
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%Day of life%%%%%%%%%%%%%%%%%%%%
@@ -161,8 +186,7 @@ GGSIPU}{August 2016 -- Ongoing}{New Delhi}
   %8/8em/accent!60/Daytime job,
   %2/10em/accent/Sports and relaxation,
   %5/6em/accent!20/Spending time with family
-}
-
+% }
 
 %\cvsection[page2sidebar]{Publications}
 
